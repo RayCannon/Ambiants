@@ -34,7 +34,8 @@ Files:
 
 hex_72_00,dws : An APL workspace containing the code used to create my current Red ant
 
-BuildAnt.dws : An APL workspace that validates and converts the file produced by hex_72 into the neural wiring text file required by the rules.
+BuildAnt.dws : An APL workspace that validates and converts the file produced by hex_72 into the neural wiring text file required by the rules. 
+It also records the selected world(s) and ants battling, returning stats on the outcome. 
 
 hex_72_000.ant : The neural wiring text file created from the workspace
 
@@ -44,8 +45,13 @@ BuildAnt.ini : A configuration file used by BuildAnt to build and record the bat
 
 Hexserver32.dws : An APL workspace that bootstraps the process of starting up Dyalog's MiServer (version 3.1) workspace running the Hex Class
 
-hex.dyalog : Source file (text) of the hex class (contains NO functions)
+hex.dyalog : A text source file of the hex class (contains NO functions)
 
 Combat_fns.dws : An APL workspace containing the Combant_fns namespace containing all the functions "included" in the Hex class
 
-hex.ini : a configuration file referenced by functions within the Hex class being run by MiServer, used to suply defaults for running and debugging.
+hex.ini : A configuration file referenced by functions within the Hex class being run by MiServer, used to suply defaults for running and debugging.
+
+When "Hex" is running on the browser, it can be in 1 of 3 modes: Live, Recording or Playback. 
+Playback is only possible if the selected combatants and world have already be recorded.
+
+The INI files may need to be adjusted depending on where you place the referenced files.
