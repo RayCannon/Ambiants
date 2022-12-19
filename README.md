@@ -36,6 +36,10 @@ hex_72_00,dws : An APL workspace containing the code used to create my current R
 
 BuildAnt.dws : An APL workspace that validates and converts the file produced by hex_72 into the neural wiring text file required by the rules.
 
+hex_72_000.ant : The neural wiring text file created from the workspace
+
+dunkosmiloolump-1.ant  : The neural wiring text file of the ant that won the contest
+
 BuildAnt.ini : A configuration file used by BuildAnt to build and record the battle between a pair of specified ants on one or more worlds.
 
 Hexserver32.dws : An APL workspace that bootstraps the process of starting up Dyalog's MiServer (version 3.1) workspace running the Hex Class
