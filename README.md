@@ -19,7 +19,8 @@ In addition two APL workspaces are provided that I wrote to create "my" red ants
 and, in addition (via comments) bebugging information, allowing one to debug the ants action during the battles. 
 These workspaces, if you wish, will allow you to write (and debug) your own ant species in APL.
 
-The Black ant species is the origional code that won the contest in 2004. (I only came across the contest after it finished.)  
+The Black ant species is the origional code that won the contest in 2004. See http://urchin.earth.li/icfpcontest/2004/Introduction 
 The code for all the entries submitted in 2004 were available on line, but may have been moved or deleted since then.
+I only came across the 2004 Contest after it had finished. 
 
 At present, creating this repository is still in progress.
