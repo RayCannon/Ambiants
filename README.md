@@ -24,4 +24,24 @@ The Black ant species is the origional code that won the contest in 2004. See ht
 The code for all the entries submitted in 2004 were available on line, but may have been moved or deleted since then.
 I only came across the 2004 Contest after it had finished. 
 
-At present, creating this repository is still in progress.
+Supplied files and directories:
+
+Worlds:
+
+A directory containing all 10 origional worlds (0-9) used in the constest plus 2 of my own. WorldA has no rocke inside. WorldM is a maze based on Hampton Court Maze.
+
+Files:
+
+hex_72_00,dws : An APL workspace containing the code used to create my current Red ant
+
+BuildAnt.dws : An APL workspace that validates and converts the file produced by hex_72 into the neural wiring text file required by the rules.
+
+BuildAnt.ini : A configuration file used by BuildAnt to build and record the battle between a pair of specified ants on one or more worlds.
+
+Hexserver32.dws : An APL workspace that bootstraps the process of starting up Dyalog's MiServer (version 3.1) workspace running the Hex Class
+
+hex.dyalog : Source file (text) of the hex class (contains NO functions)
+
+Combat_fns.dws : An APL workspace containing the Combant_fns namespace containing all the functions "included" in the Hex class
+
+hex.ini : a configuration file referenced by functions within the Hex class being run by MiServer, used to suply defaults for running and debugging.
