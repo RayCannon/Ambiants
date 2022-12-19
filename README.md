@@ -1,5 +1,6 @@
 # Ambiants
 Visualisation of "Dinner with Ambiants" the 2004 ICFP Programming Contest
+https://www.cis.upenn.edu/~plclub/contest/ants.html
 
 ***** In Progress, creating the repository is still in progress ************
 
