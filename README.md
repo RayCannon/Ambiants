@@ -2,8 +2,6 @@
 Visualisation of "Dinner with Ambiants" the 2004 ICFP Programming Contest
 https://www.cis.upenn.edu/~plclub/contest/ants.html
 
-***** In Progress, creating the repository is still in progress ************
-
 The 2004 contest was to design an ant colony that will bring the most food particles back to its anthill, while fending off ants of another species. 
 To win the contest, you must submit the neural wiring for the ants in your colony---a text file containing code for a simple, finite state machine 
 that is run by all of your ants.
@@ -24,11 +22,18 @@ The Black ant species is the origional code that won the contest in 2004. See ht
 The code for all the entries submitted in 2004 were available on line, but may have been moved or deleted since then.
 I only came across the 2004 Contest after it had finished. 
 
+I have made two minor changes to the original contest. First, I have renamed the "obstacles" from ROCKS to WATER, as ants can climb over rocks but not water.
+Second, I have added an extra ant activity that I have called "Placeholder". This activity does nothing.
+It saves one needing to use existing activities to do nothing such as testing for something and then ignoring the result of the test.
+This can be very helpful when debugging an ant, rather than being side tracked trying to work out why the test was performed.
+
+
 Supplied files and directories:
 
 Worlds:
 
-A directory containing all 10 origional worlds (0-9) used in the constest plus 2 of my own. WorldA has no rocke inside. WorldM is a maze based on Hampton Court Maze.
+A directory containing all 10 origional worlds (0-9) used in the constest plus 2 of my own. WorldA simply has no obstacles inside. 
+WorldM is a maze based on Hampton Court Maze with only one ant nest.
 
 Files:
 
@@ -39,7 +44,7 @@ It also records the selected world(s) and ants battling, returning stats on the 
 
 hex_72_000.ant : The neural wiring text file created from the workspace
 
-dunkosmiloolump-1.ant  : The neural wiring text file of the ant that won the contest
+dunkosmiloolump-1.ant  : The neural wiring text file of the ant that won the contest NOT MY CODE
 
 BuildAnt.ini : A configuration file used by BuildAnt to build and record the battle between a pair of specified ants on one or more worlds.
 
