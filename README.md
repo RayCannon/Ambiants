@@ -48,11 +48,11 @@ dunkosmiloolump-1.ant  : The neural wiring text file of the ant that won the con
 
 BuildAnt.ini : A configuration file used by BuildAnt to build and record the battle between a pair of specified ants on one or more worlds.
 
-Hexserver32.dws : An APL workspace that bootstraps the process of starting up Dyalog's MiServer (version 3.1) workspace running the Hex Class
+Hexserver32.dws : An APL workspace that bootstraps the process of starting up Dyalog's MiServer (version 3.1) workspace running the "hex" Class.
+It contains the Combat_fns namespace that contains all the functions required by the hex class.
 
-hex.dyalog : A text source file of the hex class (contains NO functions)
-
-Combat_fns.dws : An APL workspace containing the Combant_fns namespace containing all the functions "included" in the Hex class
+hex.dyalog : A text source file of the hex class (but contains NO functions!)
+It does however have an "included" namespace pointing to Combat_fns, in hexserver32.
 
 hex.ini : A configuration file referenced by functions within the Hex class being run by MiServer, used to suply defaults for running and debugging.
 
