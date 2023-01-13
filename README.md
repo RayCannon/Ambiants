@@ -59,4 +59,6 @@ hex.ini : A configuration file referenced by functions within the Hex class bein
 When "Hex" is running on the browser, it can be in 1 of 3 modes: Live, Recording or Playback. 
 Playback is only possible if the selected combatants and world have already be recorded.
 
+When debuging the ants neural wiring text, it is very useful to be able to exactly re-run a specific battle, to see the effect of a change.
+
 The INI files may need to be adjusted depending on where you place the referenced files.
